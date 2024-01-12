@@ -1,0 +1,68 @@
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width:800px;
+    padding-top:30px;
+    margin-top:200px;
+    background-color: #490d0d;
+    box-shadow: #4b0a0a 7px 7px 7px 7px;
+}
+.container-titulo{
+    margin-bottom:15px;
+    font-size:1rem;
+}
+.container-tareas{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin-bottom:15px;
+    padding: 10px;
+    border: 5px solid #490d0d;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration:underline solid red 1px;
+}
+li.completada{
+    color: greenyellow;
+}
+input{
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: bisque;
+}
+button{
+    margin-left: 10px;
+    padding: 12px;
+    cursor: pointer;
+    color: #000000aa;
+    border: none;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+}
+button:hover{
+    background-color: #0056b3;    
+}

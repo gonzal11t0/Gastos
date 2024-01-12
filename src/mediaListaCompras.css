@@ -1,0 +1,34 @@
+@media screen and (max-width:800px) {
+    .container {
+        width:600px;
+    }
+    .titulo-container h1 {
+        font-size:2rem;
+    }
+    .titulo-container h1::first-letter {
+        font-size:3rem;
+    }
+    .container-compras th{
+        font-size:.9rem;
+    }
+    .container-compras td{
+        font-size:.7rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .container {
+        width:400px;
+    }
+    .titulo-container h1 {
+        font-size:1.5rem;
+    }
+    .titulo-container h1::first-letter {
+        font-size:2rem;
+    }
+    .container-compras th{
+        font-size:.8rem;
+    }
+    .container-compras td{
+        font-size:.6rem;
+    }
+}
