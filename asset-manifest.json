@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gonzal11t0.github.io/Gastos/static/css/main.1b09b518.css",
+    "main.js": "/gonzal11t0.github.io/Gastos/static/js/main.4a0b647e.js",
+    "static/js/787.3ba1d783.chunk.js": "/gonzal11t0.github.io/Gastos/static/js/787.3ba1d783.chunk.js",
+    "index.html": "/gonzal11t0.github.io/Gastos/index.html",
+    "main.1b09b518.css.map": "/gonzal11t0.github.io/Gastos/static/css/main.1b09b518.css.map",
+    "main.4a0b647e.js.map": "/gonzal11t0.github.io/Gastos/static/js/main.4a0b647e.js.map",
+    "787.3ba1d783.chunk.js.map": "/gonzal11t0.github.io/Gastos/static/js/787.3ba1d783.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b09b518.css",
+    "static/js/main.4a0b647e.js"
+  ]
+}
