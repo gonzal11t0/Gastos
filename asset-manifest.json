@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gonzal11t0.github.io/Gastos/static/css/main.1b09b518.css",
-    "main.js": "/gonzal11t0.github.io/Gastos/static/js/main.4a0b647e.js",
-    "static/js/787.3ba1d783.chunk.js": "/gonzal11t0.github.io/Gastos/static/js/787.3ba1d783.chunk.js",
-    "index.html": "/gonzal11t0.github.io/Gastos/index.html",
-    "main.1b09b518.css.map": "/gonzal11t0.github.io/Gastos/static/css/main.1b09b518.css.map",
-    "main.4a0b647e.js.map": "/gonzal11t0.github.io/Gastos/static/js/main.4a0b647e.js.map",
-    "787.3ba1d783.chunk.js.map": "/gonzal11t0.github.io/Gastos/static/js/787.3ba1d783.chunk.js.map"
+    "main.css": "/Gastos/static/css/main.1b09b518.css",
+    "main.js": "/Gastos/static/js/main.7b5d5278.js",
+    "static/js/787.3ba1d783.chunk.js": "/Gastos/static/js/787.3ba1d783.chunk.js",
+    "index.html": "/Gastos/index.html",
+    "main.1b09b518.css.map": "/Gastos/static/css/main.1b09b518.css.map",
+    "main.7b5d5278.js.map": "/Gastos/static/js/main.7b5d5278.js.map",
+    "787.3ba1d783.chunk.js.map": "/Gastos/static/js/787.3ba1d783.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b09b518.css",
-    "static/js/main.4a0b647e.js"
+    "static/js/main.7b5d5278.js"
   ]
 }
