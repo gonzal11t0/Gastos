@@ -33,7 +33,7 @@ body {
 }
 .container-compras{
     display: flex;
-    width:auto;
+    width:800px;
     height:auto ;
     margin: 0 auto;
     margin-top:50px;
@@ -52,7 +52,7 @@ body {
 }
 .agregar-articulos {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -111,4 +111,8 @@ button:hover {
 }
 .error{
     color: red;
+}
+.total{
+    color: green!important;
+    font-size:1.5rem !important;
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const ListaCompras = () => {
     const storeCompras = JSON.parse(localStorage.getItem("compras")) || [];
-    const [compras, setCompras] = useState(storeCompras);
+    const [compras, setCompras] = useState(Array.isArray(storeCompras) ? storeCompras : []);    
     const [nuevoArticulo, setNuevoArticulo] = useState({
         nombre: "",
         precio: "",
@@ -23,7 +23,7 @@ const ListaCompras = () => {
             nuevoArticulo.fechaCompra.trim() !== ""
         ) {
             const total = parseFloat(nuevoArticulo.precio) * parseInt(nuevoArticulo.cantidad);
-        const nuevaCompra = { ...nuevoArticulo, total, comprado: false };
+            const nuevaCompra = { ...nuevoArticulo, total, comprado: false };
         
 
         const nuevasCompras = [...compras, nuevaCompra].sort((a, b) => {
@@ -46,6 +46,10 @@ const ListaCompras = () => {
         nuevaCompra.splice(index, 1);
         setCompras(nuevaCompra);
     };
+
+    const total=()=>{
+        return compras.reduce((total,compra)=> total+parseFloat(compra.total),0);  {/* agarramos cada elemento de total del array y lo sumo */}
+    }
 
     const validarArticulo = (articulo) => {
         if (articulo.nombre.length <= 3 || articulo.nombre.trim() === "") {
@@ -113,6 +117,7 @@ const ListaCompras = () => {
         };
     };
     
+
     const { errorProducto, errorPrecio, errorCantidad, errorFecha } = validaciones(nuevoArticulo);
 
     return (
@@ -196,6 +201,12 @@ const ListaCompras = () => {
                             </tr>
                         ))}
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td className="total" colSpan={4}>Total</td>
+                            <td className="total" >${total().toFixed(1)}</td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
         </div>

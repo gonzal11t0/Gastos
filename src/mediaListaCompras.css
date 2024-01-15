@@ -19,6 +19,26 @@
     .container {
         width:400px;
     }
+    .container-compras{
+        width:400px;
+        margin: 0 auto;
+        margin-top:35px;
+    }
+    .container-compras th{
+        padding-right:20px;
+        font-size:1.5rem;
+    }
+    .container-compras td{
+        color: #b97070;
+        font-size:1.3rem;
+        text-decoration: underline solid rgb(131, 87, 6);
+    }
+    tbody button{
+        width:auto;
+        font-size:0.8rem;
+        padding-left: 1px;
+        margin-left: 1px;
+    }
     .titulo-container h1 {
         font-size:1.5rem;
     }
@@ -30,5 +50,42 @@
     }
     .container-compras td{
         font-size:.6rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container {
+        width:200px;
+    }
+    .container-compras{
+        width:100%;
+        margin: 0 auto;
+        margin-top:35px;
+    }
+    .container-compras th{
+        display: none;
+    }
+    .container-compras td{
+        font-size:1rem;
+        padding-right:10px;
+    }
+    tbody button{
+        display: none;
+    }
+    .titulo-container h1 {
+        font-size:1rem;
+    }
+    .titulo-container h1::first-letter {
+        font-size:1rem;
+    }
+    .container-compras th{
+        font-size:.7rem;
+    }
+    .container-compras td{
+        font-size:.7rem;
+    }
+    .total{
+        color: green!important;
+        font-size:1.1rem !important;
     }
 }
