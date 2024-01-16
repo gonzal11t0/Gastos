@@ -1,4 +1,7 @@
 @media screen and (max-width:800px) {
+    body{
+        background-color: red;
+    }
     .container {
         width:600px;
     }
@@ -16,6 +19,9 @@
     }
 }
 @media screen and (max-width:600px) {
+    body{
+        background-color: green;
+    }
     .container {
         width:400px;
     }
@@ -23,6 +29,8 @@
         width:400px;
         margin: 0 auto;
         margin-top:35px;
+        overflow: hidden;
+        overflow-x: hidden;
     }
     .container-compras th{
         padding-right:20px;
@@ -35,9 +43,9 @@
     }
     tbody button{
         width:auto;
-        font-size:0.8rem;
-        padding-left: 1px;
-        margin-left: 1px;
+        font-size:0.7rem;
+        padding-left:0px;
+        margin-left:0px;
     }
     .titulo-container h1 {
         font-size:1.5rem;
