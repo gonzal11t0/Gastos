@@ -196,15 +196,15 @@ const ListaCompras = () => {
                                 <td>{compra.cantidad} U</td>
                                 <td>${compra.total}</td>
                                 <td>
-                                    <button onClick={() => eliminarArticulo(index)}>Eliminar</button>
+                                    <button className="button" onClick={() => eliminarArticulo(index)}>Eliminar</button>
                                 </td>
                             </tr>
                         ))}
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td className="total" colSpan={4}>Total</td>
-                            <td className="total" >${total().toFixed(1)}</td>
+                            <td className="total"colSpan={4}>Total</td>
+                            <td className="total">${total().toFixed(1)}</td>
                         </tr>
                     </tfoot>
                 </table>
