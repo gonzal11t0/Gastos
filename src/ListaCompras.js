@@ -177,7 +177,7 @@ const ListaCompras = () => {
                 <button onClick={agregarCarrito}>Agregar articulo</button>
             </div>
             <div className="container-compras">
-                <table>
+                <table className="table">
                     <thead>
                         <tr>
                             <th>Nombre</th>

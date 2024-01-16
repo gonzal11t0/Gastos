@@ -17,24 +17,26 @@
 }
 @media screen and (max-width:600px) {
     .container {
-        width:400px;
-        border:  solid 5px red;
+        width:100%;
     }
     .container-compras{
-        width:400px;
+        width:100%;
         margin: 0 auto;
         margin-top:35px;
-        overflow: hidden;
-        overflow-x: hidden;
-        border:  solid 5px red;
+        overflow-x: auto;
+    }
+    .table{
+        width:100%;
+        max-width:600px;
+        margin: 0 auto;
     }
     .container-compras th{
-        padding-right:12px;
-        font-size:1.3rem;
+        padding-right:8px;
+        font-size:1rem;
     }
     .container-compras td{
         color: #b97070;
-        font-size:1.2rem;
+        font-size:.9rem;
         text-decoration: underline solid rgb(131, 87, 6);
     }
     button {
@@ -50,7 +52,7 @@
         -moz-border-radius:6px;
         -ms-border-radius:6px;
         -o-border-radius:6px;
-
+    }
     .titulo-container h1 {
         font-size:1.5rem;
     }
@@ -62,7 +64,6 @@
     }
     .container-compras td{
         font-size:.6rem;
-    }
     }
 }
 @media screen and (max-width:400px) {
